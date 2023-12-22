@@ -1,0 +1,24 @@
+.flag {
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.line {
+    background-color: #CE1124;
+}
+
+.flag > .vertical-line {
+    width: 112.5px;
+    height: 100%;
+    position: absolute;
+    left: 393.75px;
+}
+
+.flag > .horizontal-line {
+    width: 100%;
+    height: 112.5px;
+    position: absolute;
+    top: 243.75px;
+}
